@@ -2,7 +2,7 @@
 
 client_id = "bc4d8ca371e33597b9781f6756ea97a4"
 name = "Weblegs Strings"
-application_url = "https://example.com"
+application_url = "https://shopifyappracketworldstringsapp-production.up.railway.app"
 embedded = true
 
 [build]
@@ -25,4 +25,4 @@ api_version = "2026-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shopifyappracketworldstringsapp-production.up.railway.app/api/auth" ]
