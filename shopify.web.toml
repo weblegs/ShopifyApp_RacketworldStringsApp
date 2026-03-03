@@ -1,0 +1,7 @@
+name = "React Router"
+roles = ["frontend", "backend"]
+webhooks_path = "/webhooks/app/uninstalled"
+
+[commands]
+predev = "node -e \"try{require('fs').rmSync('.react-router/types',{recursive:true,force:true})}catch(e){}\""
+dev = "npm exec react-router dev"
