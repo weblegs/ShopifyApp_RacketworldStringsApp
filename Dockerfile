@@ -9,8 +9,8 @@ ENV NODE_ENV=production
 
 COPY package.json package-lock.json* ./
 
-# Install all deps (dev deps needed for react-router build via vite)
-RUN npm ci && npm cache clean --force
+# Install all deps (--ignore-scripts skips postinstall patch which is Windows-only)
+RUN npm ci --ignore-scripts && npm cache clean --force
 
 COPY . .
 
