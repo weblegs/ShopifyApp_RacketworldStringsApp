@@ -1,0 +1,20 @@
+-- Seed StringsGroup data migrated from Gadget
+INSERT INTO "StringsGroup" ("groupName", "productId", "stencilText", "tennisMains", "tennisCrosses", "createdAt") VALUES
+  ('Wilson Blade 52lb NXT',   'WH1749', 'Wilson Red "W" Logo',  '52 lb / 23.5 kg',  '52 lb / 23.5 kg',  NOW()),
+  ('Babolat',                 'WH1751', 'Babolat Brand Logo',   '52 lb / 29.5 kg',  '52 lb / 29.5 kg',  NOW()),
+  ('Head',                    'WH1918', 'Head Logo Stencil',    '52 lb / 29.5 kg',  '52 lb / 29.5 kg',  NOW()),
+  ('Wilson RF Pro',           'WH1749', 'Wilson Red "W" Logo',  '49 lb / 20.5kg',   '52 lb / 29.5kg',   NOW()),
+  ('Wilson Blade 51lb NXT',   'WH1749', 'Wilson Red "W" Logo',  '51 lb / 23.0 kg',  '51 lb / 23.0 kg',  NOW()),
+  ('Wilson Pro Staff 50lbs',  'WH1749', 'Wilson Red "W" Logo',  '50 lb / 22.5 kg',  '50 lb / 22.5 kg',  NOW()),
+  ('Wilson Clash 50lbs',      'WH1749', 'Wilson Red "W" Logo',  '50 lb / 22.5 kg',  '50lbs / 22.5 kg',  NOW()),
+  ('Shift 55',                'RS5',    'Wilson Red "W" Logo',  '55 lb / 25.0 kg',  '55 lb / 25.0 kg',  NOW()),
+  ('Shift 52',                'RS5',    'Wilson Red "W" Logo',  '52 lb / 29.5 kg',  '52 lb / 29.5 kg',  NOW()),
+  ('Ultra 52',                'WH1749', 'Wilson Red "W" Logo',  '52 lb / 29.5 kg',  '52 lb / 29.5 kg',  NOW()),
+  ('Dunlop 53',               'WH2163', 'Dunlop Logo Stencil',  '53 lb / 24.0 kg',  '53 lb / 24.0 kg',  NOW()),
+  ('Dunlop 55',               'WH2164', 'Dunlop Logo Stencil',  '55 lb / 25.0 kg',  '55 lb / 25.0 kg',  NOW()),
+  ('TECNIFIBRE',              'WH3261', 'Tecnifibre Logo',      '52 lb',            '52 lb',            NOW()),
+  ('Head Hawk Touch',         'WH2982', 'Head Logo',            '52 lb',            '52lb',             NOW()),
+  ('Head Lynx Tour',          'WH2584', 'Head Logo',            '52 lb',            '52 lb',            NOW()),
+  ('Head Lynx Touch',         'WH3064', 'Head Logo',            '52 lb',            '52 lb',            NOW()),
+  ('VOLKL',                   'RS1',    'VOLKL Logo',           '52 lb / 29.5 kg',  '52 lb / 29.5 kg',  NOW()),
+  ('Wilson Ultra',            'RS1',    'Wilson Red "W" Logo',  '52lb',             '52lb',             NOW());
